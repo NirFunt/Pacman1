@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* 
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.game-over {
+  background-color: rgb(53, 53, 202);
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.game-over img {
+  width: 130px;
+  float: right;
+}
+
+
+.game-over button {
+  height: 50px;
+  margin-top:30px;
+  margin-left: 40px;
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+.game-over button:hover {
+  cursor: pointer;
+  background-color: darkkhaki;
+}
+
+.game-over h2 {
+  margin-left: 20px;
+  color:crimson;
+}
+
+/* td span {
+  color: blueviolet;
+} */
+
+.power-food-color {
+  color: blue;
+}
+
+
+.game-over img:active {
+  width: 200px;
+  transform: skew(30deg,20deg);
+  }
+
+.game-over h2:focus {
+    width: 300px;
+    }
+
+.game-over button:active {
+      height : 150px;
+      width: 100px;
+      }
